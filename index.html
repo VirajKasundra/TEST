@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Git & GitHub</title>
+    <title>Sign Up Page</title>
 </head>
 <body>
-    <h1>Welcome to My Test Page.</h1>
-    <p>This is a simple HTML page to test Git and GitHub functionality.</p>
+    <h1>Sign Up</h1>
+    <form action="/submit" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <button type="submit">Sign Up</button>
+    </form>
 </body>
 </html>
